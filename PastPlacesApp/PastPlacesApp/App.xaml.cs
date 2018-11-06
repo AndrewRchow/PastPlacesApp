@@ -7,11 +7,24 @@ namespace PastPlacesApp
 {
     public partial class App : Application
     {
+        public static string DbLocation = string.Empty;
+
+        public static string DatabaseLocation { get; internal set; }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new LoginPage());
+        }
+
+        public App(string dbLocation)
+        {
+            InitializeComponent();
+
+            MainPage = new NavigationPage(new LoginPage());
+
+            DbLocation = dbLocation;
         }
 
         protected override void OnStart()

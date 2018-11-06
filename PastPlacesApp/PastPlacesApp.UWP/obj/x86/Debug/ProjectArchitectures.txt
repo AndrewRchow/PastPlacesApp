@@ -1,0 +1,1 @@
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\PastPlacesApp.UWP.csproj;x86

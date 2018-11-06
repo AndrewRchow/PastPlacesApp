@@ -1,0 +1,17 @@
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\bin\Release\netstandard2.0\PastPlacesApp.deps.json
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\bin\Release\netstandard2.0\PastPlacesApp.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\bin\Release\netstandard2.0\PastPlacesApp.pdb
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\HistoryPage.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\HomePage.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\LoginPage.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\MapPage.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\ProfilePage.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\PastPlacesApp.csproj.CoreCompileInputs.cache
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\PastPlacesApp.AssemblyInfoInputs.cache
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\PastPlacesApp.AssemblyInfo.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\XamlC.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\PastPlacesApp.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\PastPlacesApp.pdb
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\NewTravelPage.xaml.g.cs
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Release\netstandard2.0\PastPlacesApp.csprojAssemblyReference.cache
