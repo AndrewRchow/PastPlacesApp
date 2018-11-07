@@ -298,3 +298,16 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\qua
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\ProjectArchitectures.txt
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\e_sqlite3.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\SQLite-net.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_green.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\Plugin.Geolocator.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\Xamarin.Forms.Maps.UWP.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\Xamarin.Forms.Maps.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Plugin.Geolocator.pri.xml
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\Plugin.Permissions.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml

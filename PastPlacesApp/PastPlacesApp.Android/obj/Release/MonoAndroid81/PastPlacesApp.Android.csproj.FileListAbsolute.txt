@@ -5,6 +5,15 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\bin\Release\c
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\bin\Release\PastPlacesApp.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\bin\Release\PastPlacesApp.pdb
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\PastPlacesApp.Android.csprojAssemblyReference.cache
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Tasks.dll.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Base.dll.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\Xamarin.GooglePlayServices.Maps.dll.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\proguard\dc663e480.txt
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\dc663e48.proguard.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\0757626b.proguard.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\2f4d086a.proguard.stamp
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XbdMerge\ea5c07c4.proguard.stamp
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\res.flag
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\PastPlacesApp.Android.csproj.CoreCompileInputs.cache
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Release\MonoAndroid81\XamlC.stamp

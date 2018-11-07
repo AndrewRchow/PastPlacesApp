@@ -55,3 +55,12 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\obj\iPhoneSimulat
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\obj\iPhoneSimulator\Debug\PastPlacesApp.iOS.csproj.CopyComplete
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\obj\iPhoneSimulator\Debug\PastPlacesApp.iOS.exe
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\obj\iPhoneSimulator\Debug\PastPlacesApp.iOS.pdb
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll

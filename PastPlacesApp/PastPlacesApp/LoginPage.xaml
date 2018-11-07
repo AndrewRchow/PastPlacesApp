@@ -10,11 +10,12 @@
                Placeholder="Email Address" 
                TextColor="{StaticResource blueColor}"
                Keyboard="Email"
-               Text="Tesst"/>
+               Text="Test"/>
         <Entry x:Name="passwordEntry"
                Placeholder="Password" 
                 TextColor="{StaticResource blueColor}"
-               IsPassword="True"/>
+               IsPassword="True"
+               Text="Test"/>
         <Button x:Name="LoginButton" 
                 Text="LOG IN" 
                 Margin="0,30,0,0"

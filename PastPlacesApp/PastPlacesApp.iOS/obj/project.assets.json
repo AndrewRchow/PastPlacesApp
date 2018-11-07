@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -48,6 +57,18 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -173,11 +194,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.3.0.967583": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PastPlacesApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.3.0.967583",
+          "Xamarin.Forms.Maps": "3.3.0.967583",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -189,6 +227,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -235,6 +282,18 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -360,11 +419,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.3.0.967583": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PastPlacesApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.3.0.967583",
+          "Xamarin.Forms.Maps": "3.3.0.967583",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -376,6 +452,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -422,6 +507,18 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -547,11 +644,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.3.0.967583": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PastPlacesApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.3.0.967583",
+          "Xamarin.Forms.Maps": "3.3.0.967583",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -563,6 +677,15 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Plugin.Permissions/3.0.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -609,6 +732,18 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/4.5.0.6": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.Permissions": "3.0.0.12"
+        },
+        "compile": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Geolocator.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -734,11 +869,28 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.Maps/3.3.0.967583": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
+        }
+      },
       "PastPlacesApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Plugin.Permissions": "3.0.0.12",
+          "Xam.Plugin.Geolocator": "4.5.0.6",
           "Xamarin.Forms": "3.3.0.967583",
+          "Xamarin.Forms.Maps": "3.3.0.967583",
           "sqlite-net-pcl": "1.5.231"
         },
         "compile": {
@@ -751,6 +903,28 @@
     }
   },
   "libraries": {
+    "Plugin.Permissions/3.0.0.12": {
+      "sha512": "R8Rlzfci1byoPBGOiJfCMzu0HhhN6Q4Vq4YizlF41W946NEmoL/Mb8U5caP5t5KfSbdPQpzdQ9JfM8fxPG8pfw==",
+      "type": "package",
+      "path": "plugin.permissions/3.0.0.12",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Permissions.dll",
+        "lib/monoandroid71/Plugin.Permissions.xml",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.xml",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.xml",
+        "lib/uap10.0.10240/Plugin.Permissions.dll",
+        "lib/uap10.0.10240/Plugin.Permissions.pri",
+        "lib/uap10.0.10240/Plugin.Permissions.xml",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.xml",
+        "plugin.permissions.3.0.0.12.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
+      ]
+    },
     "sqlite-net-pcl/1.5.231": {
       "sha512": "Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
       "type": "package",
@@ -846,6 +1020,32 @@
         "lib/Xamarin.iOS10/SQLitePCLRaw.provider.sqlite3.dll",
         "sqlitepclraw.provider.sqlite3.ios_unified.1.1.11.nupkg.sha512",
         "sqlitepclraw.provider.sqlite3.ios_unified.nuspec"
+      ]
+    },
+    "Xam.Plugin.Geolocator/4.5.0.6": {
+      "sha512": "rbWNjW7o14EtZa+yjPLujQg+PLVF6M490ooNx9QK/Z6El+uRA2EFut+lT/OAetWFzdPcv9LCs0YGOTvs9e7taQ==",
+      "type": "package",
+      "path": "xam.plugin.geolocator/4.5.0.6",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.Geolocator.dll",
+        "lib/monoandroid71/Plugin.Geolocator.xml",
+        "lib/netstandard1.0/Plugin.Geolocator.dll",
+        "lib/netstandard1.0/Plugin.Geolocator.xml",
+        "lib/netstandard2.0/Plugin.Geolocator.dll",
+        "lib/netstandard2.0/Plugin.Geolocator.xml",
+        "lib/uap10.0.10240/Plugin.Geolocator.dll",
+        "lib/uap10.0.10240/Plugin.Geolocator.pri",
+        "lib/uap10.0.10240/Plugin.Geolocator.xml",
+        "lib/xamarinios10/Plugin.Geolocator.dll",
+        "lib/xamarinios10/Plugin.Geolocator.xml",
+        "lib/xamarinmac20/Plugin.Geolocator.dll",
+        "lib/xamarinmac20/Plugin.Geolocator.xml",
+        "lib/xamarintvos10/Plugin.Geolocator.dll",
+        "lib/xamarintvos10/Plugin.Geolocator.xml",
+        "readme.txt",
+        "xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
+        "xam.plugin.geolocator.nuspec"
       ]
     },
     "Xamarin.Forms/3.3.0.967583": {
@@ -995,6 +1195,37 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.Maps/3.3.0.967583": {
+      "sha512": "Hyl6VN3wsOXi1BrGoaYfdBl0K/d2/jQjnHyCh86j/wRfeeAxZDIpLOKxiXOjlnFulvGGzawhlt+7iTb473+eYw==",
+      "type": "package",
+      "path": "xamarin.forms.maps/3.3.0.967583",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
+        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.dll",
+        "lib/tizen40/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0/Xamarin.Forms.Maps.dll",
+        "xamarin.forms.maps.3.3.0.967583.nupkg.sha512",
+        "xamarin.forms.maps.nuspec"
+      ]
+    },
     "PastPlacesApp/1.0.0": {
       "type": "project",
       "path": "../PastPlacesApp/PastPlacesApp.csproj",
@@ -1004,7 +1235,10 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "PastPlacesApp >= 1.0.0",
+      "Plugin.Permissions >= 3.0.0.12",
+      "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xamarin.Forms >= 3.3.0.967583",
+      "Xamarin.Forms.Maps >= 3.3.0.967583",
       "sqlite-net-pcl >= 1.5.231"
     ]
   },
@@ -1045,7 +1279,19 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[3.0.0.12, )"
+          },
+          "Xam.Plugin.Geolocator": {
+            "target": "Package",
+            "version": "[4.5.0.6, )"
+          },
           "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.3.0.967583, )"
+          },
+          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[3.3.0.967583, )"
           },
