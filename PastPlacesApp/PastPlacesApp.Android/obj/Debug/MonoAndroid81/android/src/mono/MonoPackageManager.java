@@ -108,6 +108,7 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "PastPlacesApp.Android.dll" comes first in this list. */
 		"PastPlacesApp.Android.dll",
 		"FormsViewGroup.dll",
+		"Newtonsoft.Json.dll",
 		"PastPlacesApp.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Geolocator.dll",
@@ -118,6 +119,8 @@ class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

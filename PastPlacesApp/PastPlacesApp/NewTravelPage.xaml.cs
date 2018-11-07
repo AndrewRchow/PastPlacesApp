@@ -1,4 +1,6 @@
-﻿using PastPlacesApp.Model;
+﻿using PastPlacesApp.Logic;
+using PastPlacesApp.Model;
+using Plugin.Geolocator;
 using SQLite;
 using System;
 using System.Collections.Generic;
@@ -19,23 +21,56 @@ namespace PastPlacesApp
 			InitializeComponent ();
 		}
 
+        protected async override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            var locator = CrossGeolocator.Current;
+            var position = await locator.GetPositionAsync();
+
+            var venues = await VenueLogic.GetVenues(position.Latitude, position.Longitude);
+            venueListView.ItemsSource = venues;
+        }
+
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
-            Post post = new Post()
+            try
             {
-                Experience = experienceEntry.Text
-            };
+                var selectedVenue = venueListView.SelectedItem as Venue;
+                var firstCategory = selectedVenue.categories.First();
+                Post post = new Post()
+                {
+                    Experience = experienceEntry.Text,
+                    CategoryId = firstCategory.id,
+                    CategoryName = firstCategory.name,
+                    Address = selectedVenue.location.address,
+                    Distance = selectedVenue.location.distance,
+                    Latitude = selectedVenue.location.lat,
+                    Longitude = selectedVenue.location.lng,
+                    VenueName = selectedVenue.name
 
-            using (SQLiteConnection conn = new SQLiteConnection(App.DbLocation))
-            {
-                conn.CreateTable<Post>();
-                int rows = conn.Insert(post);
+                };
 
-                if (rows > 0)
-                    DisplayAlert("Success", "Experience added", "Ok");
-                else
-                    DisplayAlert("Failure", "Experience failed to add", "Ok");
+                using (SQLiteConnection conn = new SQLiteConnection(App.DbLocation))
+                {
+                    conn.CreateTable<Post>();
+                    int rows = conn.Insert(post);
+
+                    if (rows > 0)
+                        DisplayAlert("Success", "Experience added", "Ok");
+                    else
+                        DisplayAlert("Failure", "Experience failed to add", "Ok");
+                }
             }
+            catch (NullReferenceException nre)
+            {
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+
         }
     }
 }

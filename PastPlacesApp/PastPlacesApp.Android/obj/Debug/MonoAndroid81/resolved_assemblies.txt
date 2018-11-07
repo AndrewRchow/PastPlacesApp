@@ -3,6 +3,7 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\Mon
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Newtonsoft.Json.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\PastPlacesApp.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Plugin.CurrentActivity.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Plugin.Geolocator.dll
@@ -15,6 +16,9 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\Mon
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Net.Http.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Net.Http.Extensions.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Net.Http.Primitives.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.Linq.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -61,7 +65,6 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\Mon
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.InteropServices.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Extensions.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Reflection.Extensions.dll
-E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Net.Http.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Serialization.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.ServiceModel.Internals.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\netstandard.dll
@@ -81,3 +84,4 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\Mon
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Threading.Tasks.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Globalization.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.Android\obj\Debug\MonoAndroid81\android\assets\System.Net.Primitives.dll

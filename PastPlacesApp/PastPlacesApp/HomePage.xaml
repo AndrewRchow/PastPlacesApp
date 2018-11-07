@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:PastPlacesApp"
              x:Class="PastPlacesApp.HomePage">
     <TabbedPage.ToolbarItems>
-        <ToolbarItem Text="Add"
+        <ToolbarItem Text="Add Nearby"
                      Clicked="ToolbarItem_Clicked"/>
     </TabbedPage.ToolbarItems>
     <local:HistoryPage Title="History"/>

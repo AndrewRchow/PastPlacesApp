@@ -1,4 +1,5 @@
 FormsViewGroup
+Newtonsoft.Json
 PastPlacesApp
 Plugin.CurrentActivity
 Plugin.Geolocator
@@ -9,6 +10,8 @@ SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
 SQLitePCLRaw.lib.e_sqlite3
 SQLitePCLRaw.provider.e_sqlite3
+System.Net.Http.Extensions
+System.Net.Http.Primitives
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

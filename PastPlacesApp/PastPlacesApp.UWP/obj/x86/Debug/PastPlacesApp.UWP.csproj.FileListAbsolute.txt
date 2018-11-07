@@ -311,3 +311,6 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Plu
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Xamarin.Forms.Maps.UWP.pri.xml
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\Plugin.Permissions.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\obj\x86\Debug\Plugin.Permissions.pri.xml
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.UWP\bin\x86\Debug\Newtonsoft.Json.dll

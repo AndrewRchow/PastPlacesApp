@@ -64,3 +64,6 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulat
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Plugin.Geolocator.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.dll
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Maps.iOS.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Extensions.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\System.Net.Http.Primitives.dll
+E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
