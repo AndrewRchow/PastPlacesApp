@@ -12,6 +12,9 @@ namespace PastPlacesApp
         public LoginPage()
         {
             InitializeComponent();
+
+            var assembly = typeof(LoginPage);
+            iconImage.Source = ImageSource.FromResource("PastPlacesApp.Assets.Images.plane.png", assembly);
         }
 
         private void LoginButton_Clicked(object sender, EventArgs e)

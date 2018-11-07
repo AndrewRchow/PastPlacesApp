@@ -3,24 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PastPlacesApp"
              x:Class="PastPlacesApp.LoginPage">
-
-    <StackLayout VerticalOptions="Center"
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
                  Margin="35">
-        <Entry x:Name="emailEntry"
+            <Image x:Name="iconImage"
+               Aspect="AspectFit"
+               HorizontalOptions="FillAndExpand"
+               HeightRequest="100"
+               Margin="0,0,0,10"/>
+            <Entry x:Name="emailEntry"
                Placeholder="Email Address" 
                TextColor="{StaticResource blueColor}"
                Keyboard="Email"
                Text="Test"/>
-        <Entry x:Name="passwordEntry"
+            <Entry x:Name="passwordEntry"
                Placeholder="Password" 
                 TextColor="{StaticResource blueColor}"
                IsPassword="True"
                Text="Test"/>
-        <Button x:Name="LoginButton" 
+            <Button x:Name="LoginButton" 
                 Text="LOG IN" 
                 Margin="0,30,0,0"
                 Clicked="LoginButton_Clicked"
                 Style="{StaticResource normalButton}"/>
-    </StackLayout>
-
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

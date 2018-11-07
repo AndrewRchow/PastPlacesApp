@@ -5,15 +5,16 @@
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save"
+                     Icon="save.png"
                      Clicked="ToolbarItem_Clicked"/>
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
         <StackLayout>
             <Entry x:Name="experienceEntry"
-                   Placeholder="Add your experience"/>
+                   Placeholder="Experience Description"/>
             <ListView x:Name="venueListView"
-                      Margin="20, 0"
+                      Margin="20"
                       HorizontalOptions="FillAndExpand">
                 <ListView.ItemTemplate>
                     <DataTemplate>
@@ -23,9 +24,9 @@
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"></RowDefinition>
-                                    <RowDefinition Height="*"></RowDefinition>
+                                <Grid.RowDefinitions Height="Auto">
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
                                 </Grid.RowDefinitions>
 
                                 <Label Text="{Binding name}"

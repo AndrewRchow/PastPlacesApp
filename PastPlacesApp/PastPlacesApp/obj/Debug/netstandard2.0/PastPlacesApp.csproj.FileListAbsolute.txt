@@ -14,4 +14,3 @@ E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Debug\netstandard
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Debug\netstandard2.0\PastPlacesApp.pdb
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Debug\netstandard2.0\NewTravelPage.xaml.g.cs
 E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Debug\netstandard2.0\XamlC.stamp
-E:\REPOS\PUBLISH\PastPlacesApp\PastPlacesApp\PastPlacesApp\obj\Debug\netstandard2.0\PastPlacesApp.csprojAssemblyReference.cache
